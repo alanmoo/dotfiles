@@ -10,13 +10,16 @@ installcask google-chrome
 installcask tower
 installcask adium
 installcask alfred
+brew cask alfred link
 installcask dropbox
 installcask fantastical
 installcask firefox
 installcask f-lux
 installcask kaleidoscope
-installcask omni-focus
+installcask omnifocus
 installcask sublime-text-3
-installcask virtualbox
+installcask sublime-text
 installcask codekit
 installcask textexpander
+installcask transmit
+installcask virtualbox
