@@ -18,7 +18,7 @@ installcask f-lux
 installcask kaleidoscope
 installcask omnifocus
 installcask sublime-text-3
-installcask sublime-text
+installcask spotify
 installcask codekit
 installcask textexpander
 installcask transmit
