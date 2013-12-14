@@ -17,7 +17,7 @@ alias h="history"
 alias j="jobs"
 
 # programs
-alias slt='open -a "Sublime Text"'
+alias subl='open -a "Sublime Text"'
 alias preview="open -a '$PREVIEW'"
 alias xcode="open -a '/Developer/Applications/Xcode.app'"
 alias filemerge="open -a '/Developer/Applications/Utilities/FileMerge.app'"
