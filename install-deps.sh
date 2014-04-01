@@ -51,3 +51,10 @@ sudo easy_install Pygments
 # chrome canary as default
 # on a mac you can set chrome canary as your default inside of Safari preferences :)
 
+#NVM
+curl https://raw.github.com/creationix/nvm/v0.4.0/install.sh | sh
+nvm install 0.10
+nvm alias default 0.10
+
+#RVM
+\curl -sSL https://get.rvm.io | bash -s stable --ruby=1.9.3

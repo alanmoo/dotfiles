@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -40,3 +40,18 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
+
+# Load NVM
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
+
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+export HTTP_PROXY="http://127.0.0.1:3128" 
+export HTTPS_PROXY="http://127.0.0.1:3128"
+
+export http_proxy="http://127.0.0.1:3128" 
+export https_proxy="http://127.0.0.1:3128"
+
+export ftp_proxy="http://127.0.0.1:3128"
+export FTP_PROXY="http://127.0.0.1:3128"
