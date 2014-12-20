@@ -6,22 +6,30 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
-installcask google-chrome
-installcask tower
-installcask adium
 installcask alfred
-installcask dropbox
+installcask betterzipql
 installcask fantastical
-installcask firefox
-installcask f-lux
+installcask iterm2
 installcask kaleidoscope
-installcask omnifocus
+installcask qlcolorcode
+installcask qlmarkdown
+installcask qlprettypatch
+installcask qlstephen
+installcask quicklook-csv
+installcask quicklook-json
 installcask spotify
-installcask codekit
+installcask suspicious-package
 installcask textexpander
 installcask transmit
-installcask virtualbox
-installcask iterm2
-installcask sublime-text-3
+installcask google-chrome
+installcask flux
+installcask tower
+installcask adium
+installcask dropbox
+installcask firefox
+installcask omnifocus
+installcask codekit
+installcask sublime-text
+installcask controlplane
 
 brew cask alfred link

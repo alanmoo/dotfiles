@@ -55,3 +55,8 @@ export https_proxy="http://127.0.0.1:3128"
 
 export ftp_proxy="http://127.0.0.1:3128"
 export FTP_PROXY="http://127.0.0.1:3128"
+
+export HTTP_PROXY_REQUEST_FULLURI=0
+export HTTPS_PROXY_REQUEST_FULLURI=0
+
+source ~/.profile

@@ -76,3 +76,13 @@
 
 [push]
 	default = matching
+[user]
+	name = Alan Mooiman
+	email = amooiman@gmail.com
+[mergetool]
+	keepBackup = true
+[https]
+  proxy = http://127.0.0.1:3128
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f

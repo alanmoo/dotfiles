@@ -15,6 +15,8 @@ alias p="cd ~/projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias mdc="mina deploy && mina deploy:cleanup"
+alias mdcp="mina deploy to=prototype && mina deploy:cleanup to=prototype"
 
 # programs
 alias subl='open -a "Sublime Text"'
