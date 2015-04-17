@@ -31,6 +31,7 @@ alias chromium="open -a chromium"
 alias dashcode="open -a dashcode"
 alias f='open -a Finder'
 alias photoshop="open -a '/Applications/Adobe Photoshop CS6/Adobe Photoshop.app'"
+alias fuck='$(thefuck $(fc -ln -1))'
 
 # be nice
 alias please=sudo
